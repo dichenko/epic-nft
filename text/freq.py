@@ -12,8 +12,7 @@ with open('script.txt', "r", encoding="utf8") as f:
 with open('wordList.txt', "w", encoding="utf8") as f:
     for el in text:
         if len(el)>2:
-            f.write(el
-                    +"\n")
+            f.write('"'+el+'"'+", ")
             print(el)
         
 
