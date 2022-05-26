@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 350 350">
+  <style>
+    .base { fill: white; font-family: serif; font-size: 14px; }
+  </style>
+  <rect width="100%" height="100%" fill="#161b33"/>
+  <rect x="-10" y="-200" width="280" height="280" transform="rotate(45)" fill="#474973"/>
+  <rect x="150" y="50" width="300" height="300" transform="rotate(45)" fill="#a69cac"/>
+  
+  <text
+    x="36%"
+    y="10%" 
+    dominant-baseline="middle" 
+    text-anchor="middle"
+    font-family="monserrat" 
+    fill="#ffdac4"
+    font-size="1.5em">Word 1
+  </text>
+
+    <text
+    x="60%"
+    y="40%" 
+    dominant-baseline="middle" 
+    text-anchor="middle"
+    font-family="lato" 
+    fill="#ffdac4"
+    font-size="2em">Word 2
+  </text>
+
+      <text
+    x="30%"
+    y="80%" 
+    dominant-baseline="middle" 
+    text-anchor="middle"
+    font-family="" 
+    fill="#ffdac4"
+    font-size="1.2em">Word 3
+  </text>
+  
+</svg>
