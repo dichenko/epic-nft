@@ -13,7 +13,18 @@ contract Bullet{
                 Strings.toString(uint160(msg.sender))
             )
         );
-        return words[uint(h)%1000%words.length];
+        return words[uint(h)%100%words.length];
+        
+    }
+
+    function secondWord(uint _nonce) public view returns(string memory){
+        bytes32 h = keccak256(
+            abi.encodePacked(
+                Strings.toString(_nonce), 
+                Strings.toString(uint160(msg.sender))
+            )
+        );
+        return words[uint(h)/100%100%words.length];
         
     }
 
