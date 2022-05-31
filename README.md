@@ -1,15 +1,7 @@
-# Basic Sample Hardhat Project
+# Bullet NFT
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Bullet NFT collection is based on Bullet (1996) movie. 
+Each NFT is generated and stored on-chain and contains 3 random word from this movie.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+:heart_eyes_cat: Explore BulletNFT in [OpenSea](https://testnets.opensea.io/collection/bullet1996-d2e0crcwg8)  
+:surfer: [Get your own uniq NFT](https://bulletnft.mikhaildichienk.repl.co/)
